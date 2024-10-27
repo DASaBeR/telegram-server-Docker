@@ -27,8 +27,8 @@ Follow these steps to set up and run the project using Docker:
 
 5. **Run the Docker Container**:
    - docker run -d --name telegrambotapi -p 8081:8081 \
-      -e TELEGRAMAPIID=yourapiid \
-      -e TELEGRAMAPIHASH=yourapihash \
+      -e TELEGRAMAPIID=your_api_id \
+      -e TELEGRAMAPIHASH=your_api_hash \
       local-telegram-bot-api
 
 
